@@ -48,6 +48,7 @@ h1 {
   margin: 1em 0;
   text-transform: uppercase;
   color: #d9d7d9
+  font-weight: bold;
 }
 
 h3 {
@@ -84,8 +85,14 @@ main section:not(:last-child) {
   text-align: right;
 }
 
-.school span {
-  color: #A7B8BF;
+.school span, .job-title span {
+  color: black;
+  text-decoration: underline;
+}
+
+.school, .job-title {
+  text-transform: capitalize;
+  color: black;
 }
 
 footer {
