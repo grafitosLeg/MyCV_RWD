@@ -1,4 +1,4 @@
- @charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
@@ -29,7 +29,7 @@ header {
   text-align: center;
   background-size: cover;
   background-image: url('./img/bg.jpg');
-  background-position: center;
+  background-position: fixed;
 }
 
 header section {
