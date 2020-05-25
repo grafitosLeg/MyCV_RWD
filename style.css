@@ -56,8 +56,8 @@ h3 {
 }
 
 h3, h4 {
-  font-weight: bold;
   color: black;
+  font-weight: bold;
 }
 
 
@@ -66,31 +66,43 @@ main {
 }
 
 main section:not(:last-child) {
-  border-bottom: 1px solid #646968;
+  border-bottom: 1px solid #c9caca;
 }
 
 
 .course {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .course .title {
-  margin: 0;
   color: black;
   text-align: left;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
 }
 
 .course .descrition {
-  margin: 0;
   color: black;
-  text-align: right;
+  text-align: left;
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  margin: 0px 0px 10px 0px;
 }
 
-.school span, .job-title span {
+.course .description p {
+}
+
+.title span, .school span, .job-title span {
   color: black;
   text-decoration: underline;
 }
 
-.school, .job-title {
+.title, .school, .job-title {
   text-transform: capitalize;
   color: black;
 }
