@@ -35,7 +35,7 @@ header {
 header section {
   margin: 0 auto;
   max-width: 640px;
-  color: #d9d7d9
+  color: #8c8987
 }
 
 header .img-rounded {
@@ -47,7 +47,7 @@ header .img-rounded {
 h1 {
   margin: 1em 0;
   text-transform: uppercase;
-  color: #d9d7d9
+  color: #8c8987
   font-weight: bold;
 }
 
@@ -87,7 +87,6 @@ main section:not(:last-child) {
 
 .course .descrition {
   color: black;
-  text-align: left;
   -ms-flex: 0 0 66.6%;
   flex: 0 0 66.6%;
   max-width: 66.6%;
