@@ -35,7 +35,7 @@ header {
 header section {
   margin: 0 auto;
   max-width: 640px;
-  color: #8c8987
+  color: #8c8987;
 }
 
 header .img-rounded {
@@ -47,7 +47,7 @@ header .img-rounded {
 h1 {
   margin: 1em 0;
   text-transform: uppercase;
-  color: #8c8987
+  color: #8c8987;
   font-weight: bold;
 }
 
