@@ -86,7 +86,6 @@ main section:not(:last-child) {
 }
 
 .course .descrition {
-  text-align: right;
   color: black;
   -ms-flex: 0 0 66.6%;
   flex: 0 0 66.6%;
@@ -95,6 +94,7 @@ main section:not(:last-child) {
 }
 
 .course .description p {
+  padding-left: 1em;
 }
 
 .title span, .school span, .job-title span {
