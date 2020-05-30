@@ -70,7 +70,7 @@ main section:not(:last-child) {
 }
 
 
-.course {
+.course  {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -105,6 +105,13 @@ main section:not(:last-child) {
 .title, .school, .job-title {
   text-transform: capitalize;
   color: black;
+}
+
+.skills {
+  padding: 0 1em;
+}
+.skills p {
+  color: black
 }
 
 footer {
