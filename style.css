@@ -35,7 +35,7 @@ header {
 header section {
   margin: 0 auto;
   max-width: 640px;
-  color: #8c8987;
+  color: white;
 }
 
 header .img-rounded {
@@ -47,7 +47,7 @@ header .img-rounded {
 h1 {
   margin: 1em 0;
   text-transform: uppercase;
-  color: #8c8987;
+  color: white;
   font-weight: bold;
 }
 
@@ -69,6 +69,24 @@ main section:not(:last-child) {
   border-bottom: 1px solid #c9caca;
 }
 
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+}
 
 .course  {
   display: -ms-flexbox;
