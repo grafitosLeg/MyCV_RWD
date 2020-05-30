@@ -39,9 +39,9 @@ header section {
 }
 
 header .img-rounded {
-  width:150px;
-  width:150px;
-  border-radius:50%;
+  width:200px;
+  width:200px;
+  border-radius: 50%;
 }
 
 h1 {
