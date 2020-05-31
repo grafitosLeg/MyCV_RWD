@@ -1,5 +1,5 @@
 # MyCV  May 2020
-![Website](./img/resume.png)
+![Website](./img/resume.jpg)
 ## Table of contents
 * [General info](#general-info)
 * [Demo](#demo)
