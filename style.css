@@ -16,7 +16,7 @@ article {
 }
 
 section{
-  margin: 1em;
+  margin: 0.5em;
   padding: 1em;
 }
 
@@ -88,7 +88,7 @@ a:hover {
   opacity: 0.5;
 }
 
-.course {
+.course, .skills {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -133,20 +133,20 @@ a:hover {
 }
 
 .title span, .school span, .job-title span {
-  color: black;
+  color: #509e98;
   text-decoration: underline;
 }
 
-.title, .school, .description {
+.title, .school, .job-title, .description {
   text-transform: capitalize;
   color: black;
 }
 
-.skills {
+.skills  {
   padding: 0 1em;
   color: black;
 }
-.skills p {
+.skills,.language p {
   color: black;
 }
 
@@ -157,7 +157,10 @@ ul.job-description  li:before {
 }
 
 footer {
- padding: 1em;
+ padding: 1em 1.5em;
+ background: #A7B8BF;
+ color: white;
+ text-align: right;
 }
 
 @media only screen and (max-width: 768px) {
