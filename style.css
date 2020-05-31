@@ -124,12 +124,12 @@ a:hover {
 }
 
 
-.skills .column ul {
-  list-style-type:square;
+.skills .column ul , ul.job-description {
+  list-style-type:none;
 }
 .skills .column ul > li:before {
-  content: "";
-  color: brown;
+  content: "►";
+  color: #509e98;
 }
 
 .title span, .school span, .job-title span {
@@ -137,7 +137,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.title, .school, .job-title , .description {
+.title, .school, .description {
   text-transform: capitalize;
   color: black;
 }
@@ -149,6 +149,15 @@ a:hover {
 .skills p {
   color: black;
 }
+
+ul.job-description  li:before {
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+
+
 
 footer {
  padding: 1em;
