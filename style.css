@@ -98,16 +98,16 @@ a:hover {
 .course .title {
   color: black;
   text-align: left;
-  -ms-flex: 0 0 33.3%;
-  flex: 0 0 33.3%;
-  max-width: 33.3%;
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
 }
 
 .course .descrition {
   color: black;
-  -ms-flex: 0 0 66.6%;
-  flex: 0 0 66.6%;
-  max-width: 66.6%;
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  max-width: 60%;
   margin: 0px 0px 10px 0px;
 }
 
@@ -116,23 +116,18 @@ a:hover {
 }
 
 
-.skills {
+.skills .column {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
   text-align: : left;
 }
 
-.column {
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
-}
 
-.skills ul {
-  list-style-type: square;
+.skills .column ul {
+  list-style-type:square;
 }
-.skills ul > li:before {
+.skills .column ul > li:before {
   content: "";
   color: brown;
 }
@@ -142,7 +137,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.title, .school, .job-title {
+.title, .school, .job-title , .description {
   text-transform: capitalize;
   color: black;
 }
