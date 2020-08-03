@@ -1,5 +1,5 @@
-@charset "utf-8";
-/* CSS Document */
+﻿@charset "utf-8";
+/* CSS Document test */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   color: white;
-  line-hight: 1.8em
+  line-height: 1.8em
 }
 
 article {
@@ -120,7 +120,7 @@ a:hover {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
-  text-align: : left;
+  text-align: left;
 }
 
 
