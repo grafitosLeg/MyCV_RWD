@@ -18,4 +18,4 @@ Project is created with:
 ## Sources
 This task is inspired by flynerd.pl
 * Thanks to :
-Freepik - title icon and background header made by [Freepik](https://freepik.com), licensed: CC 3.0
+Freepik - title icon and background header images made by [Freepik](https://freepik.com), licensed: CC 3.0
